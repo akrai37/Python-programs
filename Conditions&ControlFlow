@@ -11,7 +11,7 @@ def grade_converter(grade):
     else:
         return "F"
       
-# This should print an "A"      
+# This should print the "B"      
 print grade_converter(80)
 
 # This should print a "C"
