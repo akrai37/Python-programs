@@ -11,7 +11,7 @@ inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth','pocket']
 # Sorting the list found under the key 'pouch'
 inventory['pouch'].sort() 
 
-# basic functions use
+# basic functions usage
 pocket=['seashell','strange berry','lint']
 inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
