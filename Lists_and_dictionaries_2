@@ -15,7 +15,7 @@ prices = {
   "pear": 3
 }
 
-# Write the function to calculate the bill
+# function to calculate the bill
 def compute_bill(food):
   total = 0
   for item in food:
