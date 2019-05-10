@@ -1,0 +1,13 @@
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+  if f == 'tomato':
+    print 'A tomato is not a fruit!' # (It actually is.)
+    '''could have used break instead of else below ,then the else statement after the for loop would not be executed if break is used .
+    ELSE statement after for loop would not be executed if the "break" in the for loop has come  to use'''
+  else:  
+  	print 'A', f
+    
+else:
+  print 'A fine selection of fruits!'
